@@ -1,0 +1,209 @@
+:root {
+    --scrollbar-track: #24282c;
+    --scrollbar-thumb: #c4c8c6;
+    --background: #1c1f21;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    place-items: center;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+    overflow-x: none;
+}
+::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-track);
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb);
+}
+
+.clear {
+    height: 5vh;
+    width: 50px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: var(--scrollbar-thumb);
+    font-size: 19px;
+}
+
+.buttons {
+    height: 5vh;
+    background: #24282c;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.buttons .html {
+    margin-right: 1px;
+}
+.buttons .css {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.buttons .js {
+    margin-left: 1px;
+}
+.buttons .html i {
+    color: #b4bd6a;
+}
+.buttons .css i {
+    color: #f6c171;
+}
+.buttons .js i {
+    color: #75a3be;
+}
+#button {
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+    border-top: 2px solid #262a2e;
+    border-bottom: 2px solid #262a2e;
+    height: 5vh;
+    padding: 0 18px 0 18px;
+    background: var(--background);
+    color: #737577;
+}
+
+.editor {
+    width: 100% !important;
+    height: 95vh !important;
+    position: absolute;
+}
+
+@media (min-height: 900px) {
+    .buttons {
+        height: 4vh;
+    }
+    #button {
+        height: 4vh;
+    }
+    .clear {
+        height: 4vh;
+    }
+    .editor {
+        height: 96vh !important;
+    }
+}
+@media (min-height: 1400px) {
+    .buttons {
+        height: 3vh;
+    }
+    #button {
+        height: 3vh;
+    }
+    .clear {
+        height: 3vh;
+    }
+    .editor {
+        height: 97vh !important;
+    }
+}
+
+@media (max-height: 450px) {
+    .buttons {
+        height: 6vh;
+    }
+    #button {
+        height: 6vh;
+    }
+    .clear {
+        height: 6vh;
+    }
+    .editor {
+        height: 94vh !important;
+    }
+}
+@media (max-height: 375px) {
+    .buttons {
+        height: 7vh;
+    }
+    #button {
+        height: 7vh;
+    }
+    .clear {
+        height: 7vh;
+    }
+    .editor {
+        height: 93vh !important;
+    }
+}
+@media (max-height: 295px) {
+    .buttons {
+        height: 8vh;
+    }
+    #button {
+        height: 8vh;
+    }
+    .clear {
+        height: 8vh;
+    }
+    .editor {
+        height: 92vh !important;
+    }
+}
+@media (max-height: 250px) {
+    .buttons {
+        height: 10vh;
+    }
+    #button {
+        height: 10vh;
+    }
+    .clear {
+        height: 10vh;
+    }
+    .editor {
+        height: 90vh !important;
+    }
+}
+@media (max-height: 200px) {
+    .buttons {
+        height: 12vh;
+    }
+    #button {
+        height: 12vh;
+    }
+    .clear {
+        height: 12vh;
+    }
+    .editor {
+        height: 88vh !important;
+    }
+}
+@media (max-height: 180px) {
+    .buttons {
+        height: 15vh;
+    }
+    #button {
+        height: 15vh;
+    }
+    .clear {
+        height: 15vh;
+    }
+    .editor {
+        height: 85vh !important;
+    }
+}
+@media (max-height: 150px) {
+    .buttons {
+        height: 18vh;
+    }
+    #button {
+        height: 18vh;
+    }
+    .clear {
+        height: 18vh;
+    }
+    .editor {
+        height: 82vh !important;
+    }
+}

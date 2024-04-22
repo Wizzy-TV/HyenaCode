@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HyenaCode ~ Input</title>
+        <link rel="icon" type="image/ico" sizes="256x256" href="assets/universal/imgs/logo.ico">
+        <meta name="description" content="The online HTML code editor allows you to edit code and view the result in two separate tabs of your browser.">
+        <meta property="og:image" content="https://hyena-code.web.app/assets/universal/imgs/logo.png">
+        <meta name="theme-color" content="#81cc2b">
+        <link rel="stylesheet" href="assets/input/css/styles.css">
+        <link rel="stylesheet" href="assets/universal/css/bootstrap-icons/font/bootstrap-icons.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="buttons">
+
+            <button onclick="clearall()" class="clear" id="clear"><i class="bi bi-trash"></i></button>
+
+            <button onclick="showHTML()" class="html" id="button" style="border-top: 1px solid #81cc2b; border-radius: 2px 2px 0 0; border-bottom: 2px solid #1c1f21; color: #c4c8c6" ><i class="bi bi-hash"></i> HTML</button>
+            <button onclick="showCSS()" class="css" id="button"><i class="bi bi-code"></i> CSS</button>
+            <button onclick="showJS()" class="js" id="button"><i class="bi bi-filetype-js"></i> JS</button>
+        </div>
+        <div id="editorhtml" class="editor"></div>
+        <div id="editorcss" class="editor" style="display: none;"></div>
+        <div id="editorjs" class="editor" style="display: none;"></div>
+    </body>
+    <script src="assets/input/js/ace/ace.js"></script>
+    <script src="assets/input/js/ace/ext-language_tools.js"></script>
+    <script src="assets/input/js/loader.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/input/js/buttons.js"></script>
+    <script src="assets/input/js/buttons-change.js"></script>
+    <script src="assets/input/js/removeall.js"></script>
+</html>
