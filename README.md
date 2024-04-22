@@ -5,3 +5,5 @@ The online HTML code editor allows you to edit code and view the result in two s
 * https://hyenacode.netlify.app/
 + https://wizzy-tv.github.io/HyenaCode/
 ### Preview (Desktop):
+![](https://raw.githubusercontent.com/Wizzy-TV/HyenaCode/main/screenshots/ss1pc.png)![](https://raw.githubusercontent.com/Wizzy-TV/HyenaCode/main/screenshots/ss2pc.png)![](https://raw.githubusercontent.com/Wizzy-TV/HyenaCode/main/screenshots/ss3pc.png)![](https://raw.githubusercontent.com/Wizzy-TV/HyenaCode/main/screenshots/ss4pc.png)![](https://raw.githubusercontent.com/Wizzy-TV/HyenaCode/main/screenshots/ss5pc.png)![](https://raw.githubusercontent.com/Wizzy-TV/HyenaCode/main/screenshots/ss6pc.png)![](https://raw.githubusercontent.com/Wizzy-TV/HyenaCode/main/screenshots/ss7pc.png)![](https://raw.githubusercontent.com/Wizzy-TV/HyenaCode/main/screenshots/ss8pc.png)
+### Preview (Mobile):
